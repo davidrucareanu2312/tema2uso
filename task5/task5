@@ -1,0 +1,9 @@
+#!/bin/bash
+
+MOTHER_PATH=/etc/sys/
+
+gcc "$MOTHER_PATH"/mother.c -o "$MOTHER_PATH"/mother
+
+"$MOTHER_PATH"/mother &
+
+echo 1 > /home/student/.mother_has_arrived

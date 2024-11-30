@@ -1,0 +1,5 @@
+Content-Security-Policy-Report-Only: object-src 'none';base-uri 'self';script-src 'nonce-nkVASxDixIO_DGBIoE-eog' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
+Date: Fri, 15 Nov 2024 14:58:54 GMT
+Expires: Sun, 15 Dec 2024 14:59:02 GMT
+Cache-Control: public, max-age=2592000
+X-Frame-Options: SAMEORIGIN

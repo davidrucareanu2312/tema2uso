@@ -1,0 +1,3 @@
+grep -iP '\bpo\w*|\w*mp\b' long_story_short.txt > task3_1.txt
+grep -iP '\bpo\w*|\w*mp\b' long_story_short.txt | sort -k2 | head >task3_2.txt ; grep -iP '\bpo\w*|w*mp\b' long_story_short.txt | sort -k2 | tail >> task3_2.txt
+awk '{if ( ~ /^[dfDF]/) print bash}' task3_2.txt > task3_3.txt
